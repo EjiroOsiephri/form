@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+</head>
+<body>
+    <form id="create-account" action="result.html" method="GET">
+        <div class="title">
+            <h2>Create account</h2>
+        </div>
+
+        <div class="input-group ">
+            <label for="username">Name</label>
+            <input type="text" name="username" id="username" placeholder="Name">
+            <p>Error Message</p>
+        </div>
+
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email">
+            <p>Error Message</p>
+        </div>
+
+       
+
+<button type="submit" class="btn">Submit</button>
+    </form>
+    
+
+    <script src="val.js"></script>
+</body>
+</html>

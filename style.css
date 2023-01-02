@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+#create-account{
+    width: 400px;
+    background-color: white;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.input-group{
+    margin: 20px 0;
+}
+.input-group label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.input-group input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+.input-group p{
+    font-size: 15px;
+    color: red;
+    visibility: hidden;
+}
+.btn{
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    background-color: chocolate;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+.sucess input{
+    border: 3px solid green;
+}
+
+.error input{
+    border: 3px solid red;
+}
+.error p{
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
